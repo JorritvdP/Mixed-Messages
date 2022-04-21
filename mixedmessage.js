@@ -28,4 +28,5 @@ const generator = () => {
         let end = mixedMessages._end[k]
         console.log(`${start} ${quote} ${end}`);
 };
+
 generator()
