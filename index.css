@@ -1,0 +1,16 @@
+* {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+h1 {
+    
+    font-size: 36px;
+    color: red;
+    text-align: center;
+   
+}
+#title {
+    border: solid 2px black;
+    border-radius: 10px;
+    margin: 0PX 200PX 0PX 200PX;
+    text-align: center;
+}
