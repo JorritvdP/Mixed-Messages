@@ -17,3 +17,6 @@ const mixedMessagesFactory = (start, quote, end) => {
     }
 };
 
+const generator = () => {
+    
+}
