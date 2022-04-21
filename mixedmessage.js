@@ -16,8 +16,6 @@ let mixedMessages = {
         'Tough times never last but tough people do.'],
         _end: ['Today is a good day!', 'Tomorrow will be better!', 'Yesterday is gone!', 'Live today!', 'Embrace this day!']
 };
-console.log(start);
-console.log(mixedMessages._start);
 
 
 const i = Math.floor(Math.random() * 3);
