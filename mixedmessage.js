@@ -49,14 +49,28 @@ generator(result);
 // random sentence selector
 
 const sentence = {
-    wordOne: ['I', 'Love', 'You'],
-    wordTwo: ['Love', 'is', 'Hate'],
+    wordOne: ['I ', 'Love ', 'You'],
+    wordTwo: ['Love ', 'is ', 'Hate '],
     wordThree: ['Me', 'all around', 'You']
 };
 
-const test = () => {
-    let result = [];
-    let count = 0;
-    let j= Math.floor(Math.random()*3);
-    
-}
+let final = [];
+for(let word in sentence) {
+        let index = randomNum(sentence[word].length);
+
+        switch(word) {
+                case 'wordOne':
+                  final.push(sentence[word][index]);
+                  break
+                case 'wordTwo':
+                  final.push(sentence[word][index]);
+                  break
+                case 'wordThree':
+                  final.push(sentence[word][index]);
+                  break
+                default:
+                  final.push('That is not right');
+        }
+};
+
+generator(final);
