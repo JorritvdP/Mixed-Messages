@@ -14,3 +14,18 @@ h1 {
     margin: 0PX 200PX 0PX 200PX;
     text-align: center;
 }
+.generator {
+    margin-top: 200px;
+}
+
+.button {
+    border: solid 3px black;
+    border-radius: 15px;
+    background-color: black;
+    margin: 0 500px 0 500px;
+}
+
+.button:hover {
+    box-shadow: 30 black;
+    height: larger;
+}
