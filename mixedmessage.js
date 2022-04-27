@@ -41,36 +41,19 @@ const mixedMessages = {
         console.log(`${start} ${quote} ${end}`);*/
         const generator = (insp) => {
             const sent = insp.join('')
-            console.log(sent);
+            return sent;
 };
 
-generator(result);
+let quote = generator(result);
+//console.log(quote)
 
-// random sentence selector
+// incorporate in website
 
-const sentence = {
-    wordOne: ['I ', 'Love ', 'You'],
-    wordTwo: ['Love ', 'is ', 'Hate '],
-    wordThree: ['Me', 'all around', 'You']
-};
+    let button = document.getElementById("button");
+    let message = document.getElementById("message")
 
-let final = [];
-for(let word in sentence) {
-        let index = randomNum(sentence[word].length);
-
-        switch(word) {
-                case 'wordOne':
-                  final.push(sentence[word][index]);
-                  break
-                case 'wordTwo':
-                  final.push(sentence[word][index]);
-                  break
-                case 'wordThree':
-                  final.push(sentence[word][index]);
-                  break
-                default:
-                  final.push('That is not right');
-        }
-};
-
-generator(final);
+    let test = () => {
+        message.innerHTML = quote;
+    };
+    button.onclick = test;
+    
