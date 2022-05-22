@@ -1,26 +1,38 @@
 * {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: blanchedalmond;
 }
 h1 {
     
     font-size: 36px;
     color: red;
     text-align: center;
-   
+    background-color: darkblue;
 }
+
+h3 {
+    background-color: darkblue;
+    color: red;
+}
+
 #title {
     border: solid 2px black;
     border-radius: 10px;
-    margin: 0PX 200PX 0PX 200PX;
+    width: 100%;
     text-align: center;
+    background-color: darkblue;
 }
+
+
 .generator {
     display: flex;
-    margin-top: 200px;
+    height: 200px;
+    width: 100%;
+    margin-top: 100px;
     align-items: center;
     justify-content: center;
     vertical-align: middle;
-    border: 2px dashed red;
+    border: 2px dashed red;  
     border-radius: 15px;
 }
 
@@ -57,4 +69,10 @@ button {
 
 button:hover {
     background-color: black;
+}
+
+#message {
+    font-size: 32px;
+    padding: 15px;
+    background-color: silver;
 }
